@@ -36,11 +36,11 @@
 
 			$adjectives = array(" delicious", " tasty", " scrumptious", " heavenly", " delectable", " delightful", " yummy");
 			
-			$negAdjectives = array(" day-old", " overcooked", " frozen");
+			$negAdjectives = array(" day-old", " overcooked", " frozen");>
 			
 			$adjNum = rand(1, 100);
 			
-			<!--$pieAdj = ($adjNum > 10) ? $adjectives[rand(1, count($adjectives)) - 1] : $negAdjectives[rand(1, count($negAdjectives)) - 1];-->
+			$pieAdj = ($adjNum > 10) ? $adjectives[rand(1, count($adjectives)) - 1] : $negAdjectives[rand(1, count($negAdjectives)) - 1];
 			
 			echo $pieAdj . $newPie;
 			
